@@ -1,7 +1,18 @@
 <?php
 
 /**
- * Description of RSortDropDownListWidget
+ * RSortDropDownListWidget class file.
+ *
+ * @author Slava Rudnev <slava.rudnev@gmail.com>
+ * @link https://github.com/RSol/RSortDropDownListWidget
+ */
+
+/**
+ * RSortDropDownListWidget display a dropDownList with sort link for CSort class
+ *
+ * Using:
+ *
+ * <pre>
  *
  * <?php $this->widget('ext.RSortDropDownListWidget.RSortDropDownListWidget', array(
  *     'sort'=>$sort,
@@ -16,7 +27,14 @@
  *         ),
  *     ),
  * ));?>
+ * </pre>
+ *
+ * Additional 
+ * 
+ * @author Slava Rudnev <slava.rudnev@gmail.com>
+ * @version 0.1
  */
+
 class RSortDropDownListWidget extends CWidget
 {
 	/**
